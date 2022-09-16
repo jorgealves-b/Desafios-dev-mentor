@@ -111,6 +111,13 @@ button {
     
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: hsl(228, 12%, 48%);
+
+}
+
 .perfume-desktop {
     display: none;
+    
 }
