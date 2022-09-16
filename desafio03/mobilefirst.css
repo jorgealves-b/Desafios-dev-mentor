@@ -35,7 +35,8 @@ main {
 
 
 main img.img-principal {
-    width: 300px;
+    
+    max-width: 315px;
     position: relative;
     top: 2rem;
     left: center;
