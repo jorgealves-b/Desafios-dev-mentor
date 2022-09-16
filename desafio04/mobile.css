@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 415px;
+    height: 80vh;
+    margin: 3rem 1rem;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main article img {
+    width: 50px;
+}
+
+main article.article-01 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+main article.article-02 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+main article.article-03 {
+    background-color: hsl(179, 100%, 13%);
+}
