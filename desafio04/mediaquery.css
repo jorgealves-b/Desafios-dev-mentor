@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        min-width: 415px;
+        height: 100vh;
+    }
+}
