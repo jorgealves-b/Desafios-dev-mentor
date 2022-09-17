@@ -59,10 +59,21 @@ main article button {
     border: none;
     max-width: 200px;
     cursor: pointer;
+    font-weight: 700;
+}
+
+main article button:hover {
+    font-size: 0.9em;
+    transition: all 0.5ms;
+    border-radius: 1rem;
+    
+
+;
+
 }
 
 .btn01 {
-    color: hsl(31, 77%, 52%);;
+    color: hsl(31, 77%, 52%);
 }
 
 .btn02 {
