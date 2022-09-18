@@ -42,8 +42,11 @@ header p {
 
 }
 
+body {
+    font-size: 1em;
+}
+
 main {
-    min-width: 375px;
     max-width: 415px;
     width: 80%;
     margin: 2rem;
@@ -54,15 +57,66 @@ main {
 }
 
 main article {
-    height: 250px;
-    min-width: 375px;
-    box-shadow: 1px 1px 1px black;
+    height: 200px;
+    width: 300px;
+    margin: 0rem 2rem 2rem 2rem ;
+    border: none;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.219);
     border-radius: 1rem;
+}
 
+main article h2 {
+    padding: 1.5rem;
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+}
+
+main article p {
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+main article img {
+    width: 2.5rem;
+    position: relative;
+    top: 17%;
+    left: 70%;
 }
 
 main article.art-01 {
-   
-    border-top: 1rem solid green;
+    border-top: 0.2rem solid hsl(180, 62%, 55%);
+    
 }
 
+main article.art-02 {
+    border-top: 0.2rem solid hsl(0, 78%, 62%)
+}
+
+main article.art-03 {
+    border-top: 0.2rem solid hsl(34, 97%, 64%)
+}
+
+main article.art-04 {
+    border-top: 0.2rem solid hsl(212, 86%, 64%);
+}
+
+footer {
+    border-radius: 1rem;
+    border-top:  0.2rem solid hsl(212, 86%, 64%); 
+    border-right: 0.2rem solid hsl(34, 97%, 64%);
+    border-bottom: 0.2rem solid hsl(0, 78%, 62%);
+    border-left: 0.2rem solid hsl(180, 62%, 55%);
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: hsl(234, 12%, 34%);
+    text-shadow: 1px 1px 1px  black;
+}
