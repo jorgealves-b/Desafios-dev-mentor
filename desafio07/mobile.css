@@ -48,6 +48,7 @@ body {
 }
 
 main {
+    background-color: hsl(0, 0%, 98%);
     min-width: 375px;
     margin: auto;
     display: flex;
