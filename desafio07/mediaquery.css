@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {
+
+    header {
+        padding-top: 2rem 0rem;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin: auto;
+    }
+
+    main article {
+        min-width: 300px;
+    }
+
+    footer {
+        display: block;
+    }
+}
