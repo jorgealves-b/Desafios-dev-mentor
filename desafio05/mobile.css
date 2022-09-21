@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+/*font-family: 'Karla', sans-serif;*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 80vw;
+    height: 100%;
+    margin: 3rem 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+main article {
+    min-width: 375px;
+    padding: 2rem;
+}
+
+main article.art-01 {
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+    width: 375px;
+}
+
+main article .first-h1 {
+    color: hsl(179, 62%, 43%);
+    font-size:1.5em;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+main article h2 {
+    color:  hsl(71, 73%, 54%) ;
+    font-weight: 700;
+    font-size: 1em;
+    padding-bottom: 2rem;
+    
+}
+
+main article p {
+    color:hsl(0, 1%, 63%);
+    font-weight:400;
+    line-height: 2rem;
+    font-size: 1em;
+    padding-bottom: 1rem;
+}
+
+main article.art-02 {
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    justify-content: center;
+}
+
+main article .second-h1 {
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+main article .dolar {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding-right: 1rem;
+}
+
+main article .text {
+    color: hsl(0, 0%, 85%);
+    padding-left: 1rem;
+}
+
+main article .p-02 {
+    color: white;
+    font-weight: 200;
+}
+
+button {
+    color:white;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    height: 4rem;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.418);
+}
+
+main article.art-03 {
+    background-color: hsla(179, 62%, 43%, 0.726);
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 3rem;
+}
+
+main article .p-03 {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+footer {
+    min-width: 415px;
+    height: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+
+

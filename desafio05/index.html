@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="mediaquery.css">
+
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,36 +18,44 @@
   </style>
 </head>
 <body>
-  Join our community
 
-  30-day, hassle-free money back guarantee
+  <main>
+    <div class="top">
+      <article class="art-01">
+        <h1 class="first-h1">Join our community</h1>
+        <h2>30-day, hassle-free money back  guarantee</h2>
+        <p>Gain access to our full library of tutorials  along with expert code reviews.
+          Perfect for  any developers who are serious about  honing their skills.</p>
+      </article>
+    </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+    <div class="bottom">
+      <div class="bottom-01">
+        <article class="art-02">
+          <h1 class="second-h1">Monthly Subscription</h1>
+          <p><span class="dolar">&dollar;29</span> <span class="text"> per month</span></p>
+          <p class="p-02">Full access for less than &dollar;1 a day</p>
+          <button>Sign Up</button>
+        </article>
+      </div>
+        <div class="bottom-02">
+          <article class="art-03">
+            <h1 class="second-h1">Why Us</h1>
+            <p class="p-03" >
+              Tutorials by industry experts
+              Peer &amp; expert <br>
+               code review
+              Coding exercises <br>
+              Access to our GitHub repos <br>
+              Community forum <br>
+              Flashcard decks <br>
+              New videos every week</p>
+          </article>
+        </div>
+      
+    </div>
+  </main>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+   
 </body>
 </html>
