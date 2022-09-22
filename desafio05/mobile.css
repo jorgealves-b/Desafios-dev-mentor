@@ -107,8 +107,9 @@ button {
 
 button:hover {
     cursor: pointer;
-    color: hsla(179, 62%, 43%, 0.644);
+    color: hsl(179, 62%, 43%);
     font-size: 1.5em;
+    text-transform: uppercase;
     
 }
 
