@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main article.art-top {
+    height: 50%;
+    width: 100%;
+}
+
+main article img {
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 10%;
+}
+
+main article.art-bottom {
+    height: 50%;
+}
