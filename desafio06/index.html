@@ -9,30 +9,37 @@
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
   <link rel="stylesheet" href="mobile.css">
 
+  <link rel="stylesheet" href="mediaquery.css">
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <header>
+    <ion-icon id="icon-msg" name="chatbox-ellipses-outline"></ion-icon>
+    <h1>Huddle</h1>
+  </header>
   <main>
     <article class="art-top">
       <img src="images/illustration-mockups.svg" alt="ilustração">
     </article>
-    <article class="art-bottom">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. </p>
-        <button>Register</button>
-    </article>
+    <div class="bottom-part">
+      <article class="art-bottom">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion. </p>
+          <button>Register</button>
+      </article>
+      <aside>
+        <ion-icon class="logo" name="logo-facebook"></ion-icon>
+        <ion-icon class="logo" name="logo-twitter"></ion-icon>
+        <ion-icon class="logo" name="logo-instagram"></ion-icon>
+      </aside>
+    </div>
   </main>
-
-  
-
-  
-
-  
-
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
