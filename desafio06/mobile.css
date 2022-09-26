@@ -52,10 +52,12 @@ main {
 main div.img {
     max-width: 400px;
 }
-
+.art-top {
+    width: 88vw;
+}
 main img {
-    width:80%;
-    margin: 4rem 3rem;
+    width:98%;
+    margin: 4rem 2rem 2rem 0;
 }
 
 main article.art-bottom {
