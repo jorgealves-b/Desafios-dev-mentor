@@ -1,3 +1,29 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width:600px) and (max-width:990px) {
     
-}
+    body {
+        background-image: url(images/bg-desktop.svg);
+    }
+
+    main {
+        max-width: 990px;
+    }
+
+    header {
+        margin: 2rem 5rem;
+    }
+    
+    main div.img {
+        max-width: 980px;
+    }
+    .art-top {
+        width: 80vw;
+    }
+    main img {
+        width:60%;
+        margin: 1rem 1rem 2rem 0;
+    }
+    
+    main article.art-bottom {
+        margin: 0rem;
+    }
+    
