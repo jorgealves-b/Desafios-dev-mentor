@@ -4,10 +4,25 @@
         background-image: url(images/bg-desktop.svg);
         background-size: cover;
     }
+
+    header h1 {
+        font-size: 3.5em;
+    }
     main {
         flex-direction: row;
         height: 60vh;
+        width: 1000px;
         
+    }
+
+    main article.art-bottom > h1 {
+        font-size: 3.5em;
+        line-height: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    main article.art-bottom > p {
+        font-size: 1.7em;
     }
 
     main div.img {
@@ -25,14 +40,11 @@
     main article.art-bottom {
         height: 100%;
         min-width: 50vw;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: end;
         line-height: 1.5rem;
     }
 
-    aside {
-       display: flex;
-    }
-}
 
 @media screen and (min-width:600px) and (max-width:990px) {
    /*Tela para tablet*/
