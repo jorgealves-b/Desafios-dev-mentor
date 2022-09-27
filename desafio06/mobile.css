@@ -70,7 +70,7 @@ main article.art-bottom {
     margin: 2rem;
 }
 
-main article.art-bottom > h1 {
+main article.art-bottom > h2 {
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
