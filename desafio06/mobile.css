@@ -48,6 +48,7 @@ main {
     align-items: center;
     height: 100vh;
     transition: width 0.3s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 main div.img {
