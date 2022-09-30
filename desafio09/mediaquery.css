@@ -1,3 +1,28 @@
 @media screen and (min-width:768px) {
-    
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1000px;
+        height:420px;
+        transition: all 0.4s ease;
+    }
+
+    main section.img-top {
+        height: 100%;
+    }
+
+    img {
+        height: 100%;
+        max-width: 500px;
+        border-radius: 0 0.6rem 0.6rem 0 ;
+    }
+
+    main section.center {
+        min-width: 480px;
+    }
+
+    main section.center .c-t-q {
+        display:flex ;
+        flex-direction: row;
+    }
 }
