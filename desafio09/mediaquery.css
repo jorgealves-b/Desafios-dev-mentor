@@ -2,16 +2,22 @@
     main {
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
         max-width: 1000px;
         height:420px;
         transition: all 0.4s ease;
+        margin-top: 15rem;
     }
 
     main section.img-top {
         height: 100%;
     }
-
-    img {
+    .img-mobile {
+        display: none;
+    }
+    .img-desktop {
+        display: block;
         height: 100%;
         max-width: 500px;
         border-radius: 0 0.6rem 0.6rem 0 ;
