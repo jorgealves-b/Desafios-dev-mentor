@@ -23,7 +23,6 @@ body {
 }
 
 main {
-    min-width: 375px;
     max-width: 600px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 0.6rem;
@@ -31,10 +30,13 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3rem 1rem;
+    margin: 2rem 1rem ;
 }
 
-
+main section.img-top {
+    height: 250px;
+    width: 100%;
+}
 
 main section.img-top > img {
     width:100%;
@@ -47,7 +49,7 @@ main section.center {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height:30%;
+    min-height:220px;
     width: 100%;
 }
 
@@ -72,7 +74,9 @@ main section.center > p {
     color: hsla(0, 0%, 100%, 0.541);
     padding: 0rem 2rem 2rem 2rem;
 }
+main section.final {
 
+}
 main section.final .c-t-q {
     padding: 1rem 2rem 3rem  2rem;
     text-align: center;
