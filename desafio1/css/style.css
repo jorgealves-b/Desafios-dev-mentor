@@ -81,7 +81,10 @@ main .informations .music-price {
 
 main .informations .price {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    padding-top: 2rem;
     
 }
 
