@@ -8,9 +8,9 @@
     
     main {
         max-width: 1200px;
-        height: 700px;
+        height: 800px;
         background-color: white;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         margin: 3rem;
     }
 
@@ -28,6 +28,11 @@
 
     }
 
+    main section.top .rated {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
     main section.top .rated-star {
         display: flex;
         flex-direction: row;
@@ -65,6 +70,7 @@
         align-items: center;
         justify-content: left;
         gap: 2rem;
+        height: 50%;
     }
 
     main section.bottom #card-01 {
