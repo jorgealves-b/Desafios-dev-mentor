@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800&display=swap');
+/*font-family: 'League Spartan', sans-serif;*/
+
+:root {
+    --color-01:hsl(300, 43%, 22%);
+    --color-02:hsl(333, 80%, 67%);
+    --color-03:hsl(303, 10%, 53%);
+    --color-04:hsl(300, 24%, 96%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--color-04);
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 90vw;
+    margin: 4rem 2rem;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content;
+}
+main section.top h1 {
+    color:var(--color-01);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+main section.top p {
+    text-align: center;
+    color: var(--color-03);
+    line-height: 1.3rem;
+    padding: 0 1rem 2rem 0;
+}
+main section.top .rated-star {
+    background-color: hsla(302, 10%, 53%, 0.212);
+    margin:1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    min-width: 350px;
+    height: 4rem;
+}
+
+main section.top .rated-star > img {
+    padding-top: 1rem;
+}
+
+main section.top .rated-star > p {
+    color: var(--color-01);
+    font-weight: bolder;
+}
+
+main section.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.bottom .person-card {
+    background-color: var(--color-01);
+    max-width: 300px;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    color:var(--color-04);
+}
+
+main section.bottom .profile  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+main section.bottom .profile > img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+main section.bottom .profile > h2 {
+    padding-left: 2rem;
+    font-size: 1.5em;
+}
+
+main section.bottom .profile > h2 span {
+    color: var(--color-02);
+    font-weight: 500;
+}
+
