@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap');
+
+:root {
+    --bg-color: hsl(210, 46%, 95%);
+    --color-01: hsl(263, 55%, 52%);
+    --color-02: hsl(217, 19%, 35%);
+    --color-03: hsl(219, 29%, 14%);
+    --color-04: hsla(0, 0%, 81%, 0.603);
+    --color-05: hsl(210, 46%, 95%);
+    --font-primary:'Barlow Semi Condensed', sans-serif;
+}
+
+
+body {
+    font-size: 11px;
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main article {
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+main article img {
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+main article h2 {
+    font-family: var(--font-primary);
+    font-size: 2.2em;
+    padding: 1.5rem 0;
+    font-weight: 600;
+}
+
+main article p {
+    color: var(--color-04);
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 100;
+}
+
+main .profile {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+main article .profile > p {
+    padding-left: 1rem;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+main article strong {
+    color: white;
+    font-weight: 100;
+}
+
+main article.art-01 {
+    background-color: var(--color-01);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position: right 3vw top 1vw;
+    background-repeat: no-repeat;
+}
