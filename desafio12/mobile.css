@@ -13,7 +13,7 @@
     --color-01: hsl(263, 55%, 52%);
     --color-02: hsl(217, 19%, 35%);
     --color-03: hsl(219, 29%, 14%);
-    --color-04: hsla(0, 0%, 81%, 0.603);
+    --color-04: hsla(0, 0%, 81%, 0.822);
     --color-05: hsl(210, 46%, 95%);
     --font-primary:'Barlow Semi Condensed', sans-serif;
 }
@@ -32,11 +32,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: var(--font-primary);
 }
 
 main article {
-    margin: 2rem;
-    border-radius: 1rem;
+    margin: 2rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
     padding: 2rem;
 }
 
@@ -47,8 +48,8 @@ main article img {
 }
 
 main article h2 {
-    font-family: var(--font-primary);
-    font-size: 2.2em;
+    line-height: 1.5rem;
+    font-size: 2.1em;
     padding: 1.5rem 0;
     font-weight: 600;
 }
@@ -82,4 +83,40 @@ main article.art-01 {
     background-image: url(images/bg-pattern-quotation.svg);
     background-position: right 3vw top 1vw;
     background-repeat: no-repeat;
+}
+
+main article.art-01 h2 {
+    color: white;
+    font-weight: bold;
+}
+
+main article.art-02 {
+    background-color: var(--color-02);
+}
+
+main article.art-02 > h2 {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+main article.art-03,.art-05 {
+    background-color: white;
+}
+
+main article.art-03,.art-05 > h2 {
+    color: var(--color-02);
+}
+
+main article.art-03,.art-05 > p {
+    line-height: 1.2rem;
+    font-weight: bolder;
+}
+
+main .woman {
+    color: var(--color-02);
+    font-weight: 600;
+}
+
+main article.art-04 {
+    background-color: var(--color-03);
+    
 }
