@@ -24,7 +24,6 @@ body {
     background-color: var(--bg-color);
     width: 100vw;
     height: 100vh;
-    
 }
 
 main {
@@ -33,12 +32,15 @@ main {
     justify-content: center;
     align-items: center;
     font-family: var(--font-primary);
+    width: 400px;
+    margin: auto;
 }
 
 main article {
-    margin: 2rem 1rem 0.5rem 1rem;
+    margin: 1rem;
     border-radius: 0.5rem;
     padding: 2rem;
+    max-width: 370px;
 }
 
 main article img {

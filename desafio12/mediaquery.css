@@ -1,29 +1,3 @@
-@media screen and (min-width:800px) {
-    body{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+@media screen and (min-width:1000px) {
 
-    main {
-        background-color: red;
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-rows: 20% 20% 20% 20% 20% ;
-    }
-
-    main article {
-        max-width: 600px;
-    }
-
-    main article.art-01 {
-        grid-column: 1 / 4;
-        grid-row: 1 /  1;
-
-    }
-
-    main article.art-05 {
-        grid-column-start: 8;
-        grid-column-end: ;
-    }
 }
