@@ -58,7 +58,7 @@ main article p {
     color: var(--color-04);
     font-size: 1.5em;
     text-align: left;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 main .profile {
@@ -75,7 +75,6 @@ main article .profile > p {
 
 main article strong {
     color: white;
-    font-weight: 100;
 }
 
 main article.art-01 {
@@ -108,7 +107,6 @@ main article.art-03,.art-05 > h2 {
 
 main article.art-03,.art-05 > p {
     line-height: 1.2rem;
-    font-weight: bolder;
 }
 
 main .woman {
@@ -119,4 +117,8 @@ main .woman {
 main article.art-04 {
     background-color: var(--color-03);
     
+}
+
+main article.art-04 > h2 {
+    color: white;
 }
