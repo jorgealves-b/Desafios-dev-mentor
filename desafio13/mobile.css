@@ -24,6 +24,8 @@ body {
     font-weight: 400;
 }
 
+
+
 header {
     width: 100vw;
     display: flex;
@@ -46,4 +48,24 @@ header nav a{
     font-weight: 500;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
 
+main section.first > h1 {
+    color:var(--Dark-Blue);
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+}
+
+
+.ilustration {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 3rem 0;
+}
