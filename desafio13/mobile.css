@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+:root {
+    --font-01: 'Raleway', sans-serif;
+    --font-02: 'Open Sans', sans-serif;
+
+    --Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+
+body {
+    font-family: var(--font-02);
+    font-weight: 400;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 1rem;
+}
+
+header img {
+    width: 100px;
+}
+
+header nav a{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: var(--Desaturated-Blue);
+    font-family: var(--font-01);
+    font-weight: 500;
+}
+
+
