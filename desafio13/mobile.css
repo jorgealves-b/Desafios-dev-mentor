@@ -189,15 +189,26 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 3.5rem;
+    color: var(--Light-Gray);
+}
+
+footer ul {
+    list-style: none;
 }
 
 footer .logo {
     filter: invert(100) brightness(100);
-    width: 200px;
+    width: 150px;
+    padding-bottom: 2rem;
 }
 
 footer .info {
     display: flex;
+    padding-bottom: 1rem;
+}
+
+footer ul >li {
+    padding: 1rem;
 }
 
 
