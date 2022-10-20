@@ -14,8 +14,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="mobile.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
   <header>
@@ -29,7 +28,7 @@
   </header>
   <main>
     <section class="first">
-      <img class="ilustration" src="images/illustration-1.svg" alt="primeira ilustracao">
+      <img class="ilustration" src="images/illustration-1.svg" alt="primeirailustracao">
       <h1>
         All your files in one secure location, accessible anywhere.
       </h1>
@@ -37,8 +36,10 @@
         Access them wherever you need, share and collaborate with friends, 
         family, and co-workers.
       </p>
-      <input type="email" name="email" id="i-email" placeholder="Enter your email">
-      <button>Get Started</button>
+      <form action="#">
+        <input type="email" name="email" id="i-email" placeholder="Enter your email" required>
+        <button>Get Started</button>
+      </form>
     </section>
     <section class="second">
       <img class="ilustration" src="images/illustration-2.svg" alt="segunda ilustracao">
@@ -67,8 +68,10 @@
       <h2>Get early access today</h2>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
         If you have any questions, our support team would be happy to help you.</p>
-        <input type="email" name="email" id="i-email" placeholder="email@example.com">
-        <button>Get Started For Free</button>
+        <form action="#">
+          <input type="email" name="email" id="i-email" placeholder="email@example.com" required>
+          <button>Get Started For Free</button>
+        </form>
     </section>
   </main>
 
@@ -94,10 +97,11 @@
       <li>Terms</li>
       <li> Privacy</li>
     </ul>
-
-    <img src="images/" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <div class="social-media">
+      <img src="images/icon-face.png" alt="">
+      <img src="images/icon-insta.png" alt="">
+      <img src="images/icon-twitter.png" alt="">
+    </div>
   </footer>
 </body>
 </html>

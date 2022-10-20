@@ -77,6 +77,13 @@ main section.first > p {
     padding:  1rem;
 }
 
+main section > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 main section.second {
     display: flex;
     flex-direction: column;
@@ -172,6 +179,10 @@ input::placeholder {
     color: var(--Light-Gray);
 }
 
+input:active {
+    border: 1px solid red;
+}
+
 button {
     width:300px;
     height: 2rem;
@@ -181,6 +192,11 @@ button {
     border: none;
     font-weight: bolder;
     box-shadow: 1px 1px 5px 1px var(--Desaturated-Blue);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cornflowerblue;
 }
 
 footer {
@@ -207,8 +223,30 @@ footer .info {
     padding-bottom: 1rem;
 }
 
+footer .info > p {
+    margin-left: 1rem;
+}
+
 footer ul >li {
     padding: 1rem;
+}
+
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+footer .social-media img {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    filter:invert(100);
+    width: 30px;
+    margin: 10px;
+
 }
 
 
