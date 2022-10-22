@@ -86,10 +86,6 @@ main section.third h2 {
     font-size: 2em;
 }
 
-main section.fourth {   
-    
-}
-
 main section.fourth .tools > img  {
     margin: 2rem;
 }
@@ -133,6 +129,10 @@ footer a {
     justify-content: center;
 }
 
+footer a:hover {
+    color: var(--StrongCyan);
+}
+
 footer .social-medias > img {
     max-width: 30px;
 }
@@ -149,6 +149,7 @@ main section button {
     border-radius: 2rem;
     margin: 1rem;
     min-width: 300px;
+    cursor: pointer;
 
 }
 
