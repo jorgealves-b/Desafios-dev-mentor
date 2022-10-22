@@ -6,6 +6,7 @@
         width: 80vw;
         display: flex;
         flex-direction: column;
+        transition: all 1s ease-in-out;
     }
 
     main section {
@@ -36,22 +37,24 @@
     }
 
     footer {
-        margin-top: 4rem;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 100px;
     }
 
-    .links a {
-        padding: 0 1rem;
+    footer a {
+        display: inline-block;
+        text-align: center;
     }
+
+   .social-medias > img {
+    width: 15px;
+   }
     button {
         width: 200px;
     }
 
     #logo {
         float: left;
+        transform: translatex(-50px);
     }
  
