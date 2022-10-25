@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/*font-family: 'Inter', sans-serif;*/
+
+
+body {
+    width: 100vw;
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 96vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+header nav {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  right: 0;
+  top: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+header .open-menu {
+    font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .close-menu {
+    position: absolute;top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+header img {
+   margin-top: 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    padding-bottom: 2rem;
+    display: block;
+    position: relative;
+}
+main {
+    width: 96vw;
+    margin: auto;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+main .art-01 > h2  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+main .art-01 > img {
+    
+    width: 100%;
+}
+
+main .art-01 > p {
+    line-height: 1.6rem;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+main .img-desktop {
+    display: none;
+}
+main a {
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+main button {
+    background-color: hsl(5, 85%, 63%);
+    text-transform: uppercase;
+    border: none;
+    min-width: 150px;
+    height: 50px;
+    margin: 2rem 0;
+    font-weight: 700;
+
+}
+
+main button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    cursor: pointer;
+}
+
+main .art-02 {
+    background-color: hsl(240, 100%, 5%);
+
+}
+main .art-02 .info {
+    padding: 2rem;
+}
+main .art-02 > .info h3 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+main .art-02 > .info h4 {
+    color: white;
+    padding-bottom: 1.2rem;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+main .art-02 .info > p {
+    color: hsl(233, 8%, 79%);
+    font-size: 1.2em;
+    font-size: 15px;
+}
+
+main .art-02 > .info hr {
+    border:0.px solid hsl(233, 8%, 79%) ;
+    margin-top: 2rem;
+}
+
+main aside {
+    margin-top: 2rem;
+}
+
+main aside .stat {
+    margin-bottom: 2rem;
+    height: 140px;
+}
+
+main aside .stat > h2 {
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 0.7rem;
+    font-weight: 800;
+}
+
+main aside .stat > h4 {
+    color: hsl(240, 100%, 5%);
+    padding-bottom: 0.7rem;
+    font-weight: 600;
+}
+
+main aside .stat > h4:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+main aside .stat > p {
+    color: hsl(233, 8%, 79%);
+    font-weight: 400;
+    font-size: 15px;
+}
+main aside .stat-img {
+    float: left;
+    height: 100%;
+    margin-right: 1rem;
+}
+

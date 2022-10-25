@@ -1,0 +1,57 @@
+@media screen and (min-width:768px) {
+    main, header {
+        width: 768px;
+    }
+
+    .close-menu, .open-menu {
+        display: none;
+    }
+
+
+    @media screen and (min-width:998px) {
+        
+    }
+      header {
+        min-width: 998px;
+      }
+
+      main {
+        min-width: 998px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        
+      }
+
+      main .art-01 {
+        grid-column: 1/4;
+      }
+
+      main .art-01 > h2 {
+        max-width: 200px;
+      }
+
+      main .art-02 {
+        
+        
+      }
+
+      main .art-02 > h2 {
+
+      }
+
+      main  aside {
+       display: flex;
+       flex-direction: row;
+
+
+
+      }
+
+      .img-cel {
+        display: none;
+      }
+
+      main .img-desktop {
+        display: block;
+      }
