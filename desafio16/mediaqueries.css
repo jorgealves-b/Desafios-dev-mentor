@@ -17,33 +17,17 @@
 
       main {
         min-width: 998px;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        
-      }
-
-      main .art-01 {
-        grid-column: 1/4;
-      }
-
-      main .art-01 > h2 {
-        max-width: 200px;
-      }
-
-      main .art-02 {
-        
-        
-      }
-
-      main .art-02 > h2 {
-
-      }
-
-      main  aside {
        display: flex;
-       flex-direction: row;
+        
+      }
 
+      main .semclasse >h2 {
+        float: left;
+        width: 200px;
+        margin: 3rem 0;
+      }
+
+     
 
 
       }
