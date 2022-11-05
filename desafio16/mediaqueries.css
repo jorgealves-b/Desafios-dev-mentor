@@ -1,41 +1,14 @@
-@media screen and (min-width:768px) {
-    main, header {
-        width: 768px;
-    }
+@media screen and (min-width:990px) {
 
-    .close-menu, .open-menu {
-        display: none;
-    }
+  header, main {
+    max-width: 1400px;
+  }
 
+  .img-cel {
+    display: none;
+  }
 
-    @media screen and (min-width:998px) {
-        
-    }
-      header {
-        min-width: 998px;
-      }
-
-      main {
-        min-width: 998px;
-       display: flex;
-        
-      }
-
-      main .semclasse >h2 {
-        float: left;
-        width: 200px;
-        margin: 3rem 0;
-      }
-
-     
-
-
-      }
-
-      .img-cel {
-        display: none;
-      }
-
-      main .img-desktop {
-        display: block;
-      }
+  main .img-desktop {
+    display: block;
+  }
+}
