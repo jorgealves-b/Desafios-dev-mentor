@@ -42,6 +42,15 @@ header ul {
     display: none;
 }
 
+
+
+header ul  a {
+    color: var(--color-06);
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 main .first  h1 {
     color: var(--color-06);
     font-size: 3em;
@@ -69,10 +78,14 @@ main button {
     box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.308);
 }
 
+main button:hover {
+    background-color: var(--color-06);
+}
+
 main .second {
     background-color: var(--color-06);
     padding: 2rem;
-    margin: 1rem 0 3rem 0;
+    
     
 }
 
@@ -96,7 +109,7 @@ aside {
 }
 
 aside .card {
-    height: 150px;
+    height: 180px;
     margin: 1.2rem 0;
 }
 
@@ -132,4 +145,9 @@ hr {
 
 #menu {
     cursor: pointer;
+    
+}
+
+.img-desktop {
+    display: none;
 }
