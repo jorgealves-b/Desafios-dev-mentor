@@ -1,6 +1,7 @@
 @media screen and (min-width:768px) {
     body {
-        width: 90vw;
+        width: 68vw;
+        transition: all 0.6s ease-in-out;
         margin: 0 auto;
     }
 
