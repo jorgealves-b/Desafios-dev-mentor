@@ -8,91 +8,75 @@
   
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="mobile.css">
-  <link rel="stylesheet" href="mediaqueries.css">
 
 </head>
 <body>
-  <header>
-    <img src="assets/images/logo.svg" alt="logo">
-    
-      <nav id="nav">
-        <img id="menu-mobile" class="close-menu" onclick="closeMenu()" src="assets/images/icon-menu-close.svg" alt="">
-          <a href="#">Home</a>
-          <a href="#">New</a>
-          <a href="#">Popular</a>
-          <a href="#">Trending</a>
-          <a href="#">Categories</a> 
-        </div>
-      </nav>
-      <img class="open-menu" src="assets/images/icon-menu.svg" alt="" onclick="openMenu()">
-      
-  </header>
-  <main>
-    <article class="art-01">
-      <img class="img-cel" src="assets/images/image-web-3-mobile.jpg" alt="">
-      <img class="img-desktop" src="assets/images/image-web-3-desktop.jpg" alt="">
-        <h2>
-          The Bright Future of Web 3.0?
-        </h2>
-        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
-          But is it really fulfilling its promise?
-        </p>
-      <button><a href="#">Read more</a></button>
-    </article>
-    <article class="art-02">
+<header>
+  <img src="assets/images/logo.svg" alt="logo">
+  <nav>
+    <img class="menu" src="assets/images/icon-menu.svg" alt="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Categories</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="first">
+      <img class="img-mobile" src="assets/images/image-web-3-mobile.jpg" alt="">
+    <h1>The Bright Future of Web 3.0?</h1>
+    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      But is it really fulfilling its promise?
+    </p>
+    <button> Read more</button>
+  </section>
+  <section class="second">
+    <article>
+      <h2>New</h2>
       <div class="info">
-        <h3>New </h3>
-        <h4>Hydrogen VS Electric Cars</h4>
+        <h3>Hydrogen VS Electric Cars</h3>
         <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-        <hr>
       </div>
-
       <div class="info">
-        <h4>The Downsides of AI Artistry</h4>
-        <p> What are the possible adverse effects of on-demand AI image generation?</p>
-        <hr>
+        <h3> The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
       </div>
-
       <div class="info">
-        <h4>Is VC Funding Drying Up?</h4>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        <h3> Is VC Funding Drying Up?</h3>
+        <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.
         </p>
       </div>
     </article>
-    <aside>
-      <div class="stat">
-        <img class="stat-img" src="assets/images/image-retro-pcs.jpg" alt="">
-        <h2>01</h2>
-        <h4> Reviving Retro PCs</h4>
-        <p> What happens when old PCs are given modern upgrades?</p>
-      </div>
-      <div class="stat">
-        <img class="stat-img" src="assets/images/image-top-laptops.jpg" alt="">
-        <h2>02</h2>
-        <h4>Top 10 Laptops of 2022</h4>
-        <p>Our best picks for various needs and budgets.</p>
-      </div>
-      <div class="stat">
-        <img class="stat-img" src="assets/images/image-gaming-growth.jpg" alt="">
-        <h2> 03</h2>
-        <h4> The Growth of Gaming</h4>
-        <p> How the pandemic has sparked fresh opportunities.</p>
-      </div>
-    </aside>
-  </main>
-  <script>
-    function openMenu() {
-      document.getElementById("nav").style.width = "70vw";
-      document.getElementById("nav").style.height = "100vh";
-
-    }
-      function closeMenu(){
-        document.getElementById("nav").style.width = "0"
-      }
-    </script>
-    
-</body>
-</html>
+  </section>
+</main>
+<aside>
+  <div class="card">
+    <img src="assets/images/image-retro-pcs.jpg" alt="pc-retrô">
+    <div class="card-info">
+      <span>01</span>
+      <h4>Reviving Retro PCs</h4>
+      <p>What happens when old PCs are given modern upgrades?</p>
+    </div>
   </div>
+  <div class="card">
+    <img src="assets/images/image-top-laptops.jpg" alt="laptops">
+    <div class="card-info">
+      <span>02</span>
+      <h4>Top 10 Laptops of 2022</h4>
+      <p>Our best picks for various needs and budgets.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/images/image-gaming-growth.jpg" alt="Joystik">
+    <div class="card-info">
+      <span>03</span>
+      <h4>The Growth of Gaming</h4>
+      <p>How the pandemic has sparked fresh opportunities.</p>
+    </div>
+  </div>
+</aside>
 </body>
 </html>
