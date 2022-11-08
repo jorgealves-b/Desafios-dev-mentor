@@ -49,7 +49,7 @@ header ul {
     display: flex;
 }
 
-ul li {
+header ul li {
     padding-left: 0.7rem;
     font-size: 1.2em;
     font-weight: 400;
@@ -233,7 +233,33 @@ input {
 
 footer {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--Light-Gray);
     text-align: left;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.footer-logo {
+    width: 140px;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.ul-footer{
+    padding-bottom: 2rem;
+}
+
+.ul-footer li {
+    padding-bottom: 1rem;
+    color: var(--Light-Gray);
+    font-size: 1.4em;
 }
