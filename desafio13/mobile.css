@@ -23,7 +23,6 @@
 }
 
 body {
-    background-color: #fff;
     width: 100vw;
     height: 100vh;
     font-family: var(--font-02);
@@ -77,34 +76,111 @@ header ul a{
     padding-bottom: 1rem;
 }
 
-.buttons {
+form {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
     margin: 1rem;
 }
 
-
-
-
-
-
 input {
     padding: 0.8rem;
+    border-radius:0.3rem ;
+    border: 1px solid var(--Light-Gray);
 }
 
 input::placeholder {
     color: var(--Light-Gray);
 }
-button {
+
+input[type=submit] {
     background-color: var(--Bright-Blue);
     color: #fff;
     font-weight: 600;
-    border-radius: 0.3rem;
     font-family: var(--font-01);
-    padding: 0.8rem;
     border: none;
     box-shadow: 1px 1px 10px 1px var(--Desaturated-Blue);
+    cursor: pointer;
+}
+
+.second-s {
+    background-color: var(--Light-Grayish-Blue);
+    padding: 2rem;
+    border-radius: 7rem  7rem 0 0;
+    
+}
+.second-s h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--Very-Dark-Blue);
+    font-family: var(--font-01);
+    margin: 2rem 0;
+}
+
+.second-s p {
+    color: var(--Desaturated-Blue);
+    padding-bottom: 2rem;
+}
+
+.second-s p:nth-of-type(2) {
+    margin: 0 auto;
+    color: var(--Moderate-Cyan);
+    border-bottom: 1px solid var(--Moderate-Cyan);
+    width: 180px;
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 2rem 0;
+    text-align: left;
+    line-height: 1.2rem;
+    max-width: 330px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile > p {
+    font-size: 14px;
+   
+}
+
+.profile img  {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.profile h4 {
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+.profile p {
+    font-size: 11px;
+}
+
+.testimony > img {
+    width:20px;
+    padding-bottom: 1rem;
+}
+
+.ilustration-bg {
+    background-image: url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .ilustration {

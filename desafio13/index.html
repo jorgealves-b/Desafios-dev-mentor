@@ -35,33 +35,40 @@
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.
         </p>
-        <div class="buttons">
-          <input type="email" name="email" id="email" required placeholder="Enter your email...">
-          <button>Get Started</button>
-        </div>
+        
+          <form action="post">
+            <input type="email" name="email" id="email" required placeholder="Enter your email..." autocomplete="off">
+            <input type="submit" for="email" value="Get Started"></input>
+          </form>
       </div>
       
     </section>
     <section class="second-s">
+      <div class="ilustration-bg">
+        <img id="ilustration-bg" class="ilustration" src="images/illustration-2.svg" alt="">
+      </div>
       <div class="text-field">
-        <h1>Stay productive, wherever you are</h1>
+        <h2>Stay productive, wherever you are</h2>
         <p> Never let location be an issue when accessing your files. Fylo has you 
           covered for all of your file storage needs.
+          <br>
           <br>
           Securely share files and folders with friends, family and colleagues for 
           live collaboration. No email attachments required!
         </p>
-        <span> See how Fylo works <img class="arrow" src="images/icon-arrow.svg" alt="arrow"></span>
+        <p> See how Fylo works <img class="arrow" src="images/icon-arrow.svg" alt="arrow"></p>
         <div class="testimony">
           <img src="images/icon-quotes.svg" alt="quotes">
            <p> Fylo has improved our team productivity by an order of magnitude.Since 
             making the switch our team has become a well-oiled collaboration machine.</p>
             <div class="profile">
               <img class="avatar" src="images/avatar-testimonial.jpg" alt="">
-              <h2>Kyle Burton</h2>
-              <p>Founder & CEO, Huddle</p>
+              <div class="profile-txt">
+                <h3>Kyle Burton</h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
             </div>
-            <img class="ilustration" src="images/illustration-2.svg" alt="">
+           
         </div>
       </div>
     </section>
@@ -71,8 +78,10 @@
         If you have any questions, our support team would be happy to help you.
       </p>
       <div class="buttons">
-        <input type="email" required placeholder="email@example.com">
-        <button>Get Started For Free</button>
+        <form action="post">
+          <input id="email" type="email" required placeholder="email@example.com" autocomplete="off">
+          <input type="submit" for="email" value="Get Started For Free "></input>
+        </form>
       </div>
     </aside>
   </main>
