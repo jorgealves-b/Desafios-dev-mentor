@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .ilustration {
+        max-width: 500px;
+    }
+
+    input {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    footer {
+       
+       
+    }
+}

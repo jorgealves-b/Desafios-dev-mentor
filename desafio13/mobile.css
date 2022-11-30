@@ -108,6 +108,10 @@ input[type=submit]:hover {
 }
 
 .second-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--Light-Grayish-Blue);
     padding: 2rem;
     border-radius: 7rem  7rem 0 0;
@@ -148,10 +152,10 @@ input[type=submit]:hover {
     background-color: #fff;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
     text-align: left;
     line-height: 1.5rem;
-    max-width: 330px;
+    max-width: 400px;
     font-size: 14px;
 }
 
