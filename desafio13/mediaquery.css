@@ -12,10 +12,15 @@
 }
 
 @media screen and (min-width: 998px) {
-   
-    header, main, footer {
+    header {
         max-width: 1400px;
         margin: 2rem auto;
+        transition: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+     main, footer {
+        max-width: 1400px;
+        margin: 0 auto;
         transition: cubic-bezier(0.19, 1, 0.22, 1);
     }
    
